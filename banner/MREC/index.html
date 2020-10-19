@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="ad.size" content="width=300,height=250">
+		<link type="text/css" rel="stylesheet" href="style.css?v=2.3">
+		<script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script type="text/javascript" src="functions.js?v=3.2"></script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+		<script type="text/javascript">
+     	/*var clickTag = "http://www.betashares.com.au/campaigns/income-streams/?utm_source=moneymanagement&utm_medium=halfpage&utm_content=JanDigiwrap";*/
+    	function bgExitHandler(e) {
+		  Enabler.exit("Background Exit");
+		}
+		$(document).ready(function() {
+			var el = document.getElementById('click');
+			//console.log(el);
+			if(el){
+			  el.addEventListener('click', bgExitHandler, false);
+			}
+		});
+		//document.getElementById('click').addEventListener('click', bgExitHandler, false);
+    </script>
+	</head>
+	<body style="margin:0;">
+		
+		<!-- <a class="click" href="javascript:window.open(window.clickTag)"> -->
+		  <div class="main">
+		  	<div id="click"></div>
+		  		<img class="logo" src="cso-logo.png" width="105" alt="CSO">
+		  		<img class="head" src="head.png" alt="CSO">
+		  		<p class="are">ARE YOU</p>
+		  		<p class="walking">WALKING<br/>THE<br/>WALK?</p>
+		  		<img class="wa" src="wa.png" alt="CSO">
+		  		<!-- <img class="lk" src="lk.png" alt="CSO"> -->
+		  		<p class="cybersecurity">Cybersecurity is more than just an IT concern,</p>
+		  		<p class="business">IT IS A<br/>BUSINESS CONCERN</p>
+		  		<p class="gauge">To gauge this,<br/>complete our</p>
+		  		<p class="free">FREE SECURITY ASSESSMENT</p>
+		  		<div class="take"><p>TAKE THE TEST</p></div>
+		  </div> <!-- end .main -->
+		<!-- </a> --> <!-- end a.clickTag -->
+	</body>
+</html>
